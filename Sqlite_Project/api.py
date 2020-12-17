@@ -14,7 +14,7 @@ sql read -> table.find_one(id = '')
 app = Flask(__name__)
 db = dataset.connect('sqlite:///api.db')
 
-table = db['books']+
+table = db['books']
 
 
 def fetch_db(book_id):
